@@ -9,14 +9,14 @@
     "aboutme": "自我介绍"
   },
   "avatar": {
-    "hidden": false,
+    "hidden": true,
     "src": "https://tonyzhang1993.github.io/data-structure-alg/myself/avatar.jpeg",
     "shape": "circle"
   },
   "profile": {
-    "name": "张涛",
-    "email": "zhangtaosjtu@foxmail.com",
-    "mobile": "15821927975",
+    "name": "xxx",
+    "email": "xxxx@foxmail.com",
+    "mobile": "xxxxx",
     "github": "",
     "zhihu": "",
     "workExpYear": "",

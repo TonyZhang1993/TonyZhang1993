@@ -9,13 +9,13 @@
     "aboutme": "自我介绍"
   },
   "avatar": {
-    "hidden": false,
+    "hidden": true,
     "src": "https://tonyzhang1993.github.io/data-structure-alg/myself/avatar.jpeg",
     "shape": "circle"
   },
   "profile": {
     "name": "xxx",
-    "email": "xxxxx@foxmail.com",
+    "email": "xxxx@foxmail.com",
     "mobile": "xxxxx",
     "github": "",
     "zhihu": "",
