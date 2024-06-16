@@ -9,14 +9,14 @@
     "aboutme": "自我介绍"
   },
   "avatar": {
-    "hidden": true,
+    "hidden": false,
     "src": "https://tonyzhang1993.github.io/data-structure-alg/myself/avatar.jpeg",
     "shape": "circle"
   },
   "profile": {
-    "name": "xxx",
-    "email": "xxxx@foxmail.com",
-    "mobile": "xxxxx",
+    "name": "张涛",
+    "email": "zhangtaosjtu@foxmail.com",
+    "mobile": "15821927975",
     "github": "",
     "zhihu": "",
     "workExpYear": "",
@@ -40,7 +40,7 @@
     {
       "company_name": "之江实验室",
       "department_name": "天文计算研究中心",
-      "work_time": ["2024.01", "至今"],
+      "work_time": ["2021.01", "至今"],
       "work_desc": "1. 负责团队前端工程化规范的制定和实施\n2. 负责见微可视分析平台、科研工作台及中心官网的前端功能研发",
       "dataIndex": 0
     },
@@ -60,7 +60,7 @@
       "dataIndex": 0
     },
     { "skill_name": "CSS/SCSS/LESS", "skill_level": 90, "skill_desc": "" },
-    { "skill_name": "TypeScript / JavaScript", "skill_level": 90 },
+    { "skill_name": "JavaScript / TypeScript", "skill_level": 90 },
     {
       "skill_name": "数据可视化",
       "skill_desc": "G2plot / G6 / Mapbox GL",
@@ -86,7 +86,7 @@
       "project_role": "核心开发者",
       "project_time": "2024.03 - 2024.05",
       "project_desc": "科研工作台项目包含多种不同的前端应用，应用涵盖数据驾驶舱、天文数据处理分析平台等",
-      "project_content": "我负责的部分：科研工作台中前端应用开发，主导前端项目微前端框架的搭建，前端工程化规范建立\n核⼼需要解决的问题：\n1）为降低多人协同的开发成本，提高开发效率，团队决定制定前端工程化规范，以帮助开发过程中的格式化及错误校验\n策略: 基于turborepo整体配置了eslint、prettier、tsconfig、commitlint等工具规范。\n2）科研工作台包含多种不同的应用产品，不同产品存在通用的功能模块，且每个应用产品需要支持作为独立的应用访问\n策略: 基于qiankun微前端框架，实现了子应用的独立开发和运行，同时也能够嵌入到主应用中联合运行。基于turborepo多包管理，抽取并管理公共组件。",
+      "project_content": "科研工作台中前端应用开发，主导前端项目微前端框架的搭建，前端工程化规范建立\n核⼼需要解决的问题：\n1）为降低多人协同的开发成本，提高开发效率，团队决定制定前端工程化规范，以帮助开发过程中的格式化及错误校验\n策略: 基于turborepo整体配置了eslint、prettier、tsconfig、commitlint等工具规范。\n2）科研工作台包含多种不同的应用产品，不同产品存在通用的功能模块，且每个应用产品需要支持作为独立的应用访问\n策略: 基于qiankun微前端框架，实现了子应用的独立开发和运行，同时也能够嵌入到主应用中联合运行。基于turborepo多包管理，抽取并管理公共组件。",
       "dataIndex": 0
     },
     {
@@ -94,7 +94,7 @@
       "project_role": "前端负责人",
       "project_time": "2023.01 - 2023.06",
       "project_desc": "基于多模态知识图谱构建可视分析系统，支持知识图谱的加载及可视化展示；支持实体、GIS面板的联动",
-      "project_content": "我负责的部分：图谱应用模块前端负责人，负责该模块整体技术方案制定\n核⼼需要解决的问题：\n1）项目中采用Mapbox GL作为Web GIS引擎渲染GIS面板。当面对大文件的GeoJSON图层数据时，存在数据传输量大、客户端地图加载缓慢和渲染效率低的问题\n策略: 对图层数据根据缩放等级进行分块处理，客户端初始加载渲染当前缩放等级下的图层数据，并监听用户在地图上的缩放事件，减少了单次加载渲染的GeoJSON数据，显著提升了渲染效率。\n2）无法对实体面板内容的进行自定义编辑更新\n策略：引入了面板低代码搭建的能力，基于自研的低代码引擎，对面板页面进行改造。赋予面板支持组件拖拽，简单配置，快速生成页面的能力。",
+      "project_content": "图谱应用模块前端负责人，负责该模块整体技术方案制定\n核⼼需要解决的问题：\n1）项目中采用Mapbox GL作为Web GIS引擎渲染GIS面板。当面对大文件的GeoJSON图层数据时，存在数据传输量大、客户端地图加载缓慢和渲染效率低的问题\n策略: 对图层数据根据缩放等级进行分块处理，客户端初始加载渲染当前缩放等级下的图层数据，并监听用户在地图上的缩放事件，减少了单次加载渲染的GeoJSON数据，显著提升了渲染效率。\n2）无法对实体面板内容的进行自定义编辑更新\n策略：引入了面板低代码搭建的能力，基于自研的低代码引擎，对面板页面进行改造。赋予面板支持组件拖拽，简单配置，快速生成页面的能力。",
       "dataIndex": 1
     }
   ],
